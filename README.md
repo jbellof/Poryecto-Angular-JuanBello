@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 # Postwork-Modulo5-JuanBello
 En este repositorio se encuentra el proyecto final de los postworks de juan bello del módulo 5 de Angular
-# Simulador de Carrito de Compras para Venta de Licores
+# Clon de Instagram
 
 ## Descripción
 
