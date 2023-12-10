@@ -5,23 +5,54 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Postwork-Modulo5-JuanBello
+En este repositorio se encuentra el proyecto final de los postworks de juan bello del módulo 5 de Angular
+# Clon de Instagram
 
-## Code scaffolding
+## Descripción
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este proyecto es un clon de la pagina de Instagram.
 
-## Build
+## Capturas de Pantalla
+## Login 
+![imagen](https://github.com/jbellof/Poryecto-Angular-JuanBello/assets/90292783/b0cee30e-16a1-48df-ae8b-1cc7d992f13b)
+## Inicio 
+![imagen](https://github.com/jbellof/Poryecto-Angular-JuanBello/assets/90292783/147ef28f-d1fd-4211-87e5-b4e248ffb108)
+## Buscar 
+![imagen](https://github.com/jbellof/Poryecto-Angular-JuanBello/assets/90292783/6c66ac15-1572-42b1-84ef-69acd8682664)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Perfil
+![imagen](https://github.com/jbellof/Poryecto-Angular-JuanBello/assets/90292783/e7ab3e87-026f-4eca-a1c2-a3287534ac37)
+## Barra de navegacion 
+![imagen](https://github.com/jbellof/Poryecto-Angular-JuanBello/assets/90292783/18910529-7897-41a1-a90b-b86c5af101c0)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Funcionalidades Principales
 
-## Running end-to-end tests
+- Inicio de sesion.
+- Pagina principal de Intagram.
+- Buscar.
+- Perfil de usuario.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Tecnologías Utilizadas
 
-## Further help
+- HTML5, CSS3
+- Typescript
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Instrucciones de Uso
+
+1. Clona este repositorio: `git clone https://github.com/jbellof/Poryecto-Angular-JuanBello
+
+## Contribución
+
+Si quieres contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu función: `git checkout -b nueva-funcionalidad`
+3. Realiza tus cambios y haz commit: `git commit -m 'Añade nueva funcionalidad'`
+4. Haz push a la rama: `git push origin nueva-funcionalidad`
+5. Abre un pull request en GitHub.
+
+## Autor
+
+Juan Esteban Bello Figueroa 
