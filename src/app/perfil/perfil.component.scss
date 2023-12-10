@@ -1,0 +1,231 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar img {
+    max-height: 40px;
+  }
+  
+  .post {
+    margin: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .stories {
+    display: flex;
+    overflow-x: auto;
+    padding: 8px;
+  }
+  
+  .story {
+    margin-right: 16px;
+    text-align: center;
+  }
+  
+  .story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  .suggestion {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .suggestion img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .suggestion button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Agrega más estilos según sea necesario */
+  /* Añade estos estilos al final del archivo styles.css */
+
+.story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border: 3px solid #ff29b8; /* Color amarillo similar al de Instagram */
+  }
+  
+  .suggestion img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .suggestion button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .story span {
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .stories {
+    display: flex;  /* Usa flexbox para alinear elementos horizontalmente */
+    overflow-x: auto;  /* Agrega desplazamiento horizontal si hay demasiadas historias para mostrar en el ancho del contenedor */
+    padding: 8px;
+  }
+  .story {
+    margin-right: 16px;
+    text-align: center;
+  }
+///// Sigestion 
+
+
+/* styles.css */
+/* styles.css */
+
+.suggestions-container {
+    position: fixed;
+    top: 0; /* Ajusta según la ubicación vertical deseada (puedes usar 'bottom' también) */
+    right: 0;
+    display: flex;
+    flex-direction: column;  /* Apila los elementos en columna */
+    align-items: flex-end;  /* Alinea los elementos al final (derecha) */
+    padding: 16px;
+    max-width: 300px; /* Establece un ancho máximo para el contenedor de sugerencias */
+    // margin-right: 16px; /* Añade un margen a la derecha para separar del contenido principal */
+ 
+
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .suggestion img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .suggestion button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  
+////// Posts
+/// 
+/* styles.css */
+
+.post-container {
+    width: 100%;
+    max-width: 400px; /* Establece un ancho máximo para el contenedor */
+    margin: 20px 500px 100px auto; /* Ajusta el margen para posicionar a la derecha */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .post-image {
+    width: 60%;
+    height: auto;
+    align-items: center;
+  }
+  
+  .post-interactions {
+    padding: 8px;
+  }
+  
+  .icons i {
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+
+  }
+  
+  .bi bi-balloon-heart {
+    font-weight: bold;
+    margin-bottom: 8px;
+
+  }
+  
+  .description {
+    color: #333;
+  }
+  
+
+  
+  
+  /////////////////////////////////////////////////////
+  /// 
+  
+  

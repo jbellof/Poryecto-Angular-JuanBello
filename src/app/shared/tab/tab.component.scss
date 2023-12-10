@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    gap: 8px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 8px 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.active {
+        border-top: 2px solid white ;
+    }
+}

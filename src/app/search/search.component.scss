@@ -1,0 +1,120 @@
+
+.top {
+   
+    background-color: #000000;
+    border-bottom: 1px solid #dbdbdb;
+    height: 77px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+.top-items {
+    display: flex;
+    height: 77px;
+    max-width: 975px;
+    padding: 26px 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-area {
+    display: flex; 
+    flex: 1 9999 0%;
+    min-width: 40px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: stretch;
+ 
+}
+
+.search-box {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.search {
+    border: 1px solid rgba(196, 196, 196, 0.418);
+    border-radius: 3px;
+    width: 200px;
+    color: #999;
+    cursor: text;
+    font-size: 14px;
+    font-weight: 300;
+    left: 0;
+    padding: 7px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+.search-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 3px 1px rgb(53, 52, 52);
+}
+.search-box:active {
+    transform: scaleX(1.04);
+}
+
+//// Sigestion 
+
+
+/* styles.css */
+/* styles.css */
+
+.suggestions-container {
+    position: fixed;
+    top: 100px; /* Ajusta según la ubicación vertical deseada (puedes usar 'bottom' también) */
+    right: 600px;
+    display: flex;
+    flex-direction: column;  /* Apila los elementos en columna */
+    align-items: flex-end;  /* Alinea los elementos al final (derecha) */
+    padding: 16px;
+    max-width: 300px; /* Establece un ancho máximo para el contenedor de sugerencias */
+    // margin-right: 16px; /* Añade un margen a la derecha para separar del contenido principal */
+ 
+
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+  
+  .suggestion img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .suggestion button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+  }

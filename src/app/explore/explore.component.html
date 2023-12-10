@@ -1,0 +1,17 @@
+<section class="gallery">
+    <section class="section-posts" tabindex="0">
+      <section class="grid-posts">
+        <div *ngFor="let post of account!.posts; let i = index;">
+          <app-post [post]="post" class="gallery-item">
+            <!-- Mostrar likes y comentarios al pasar el cursor -->
+            <div class="gallery-item-info">
+              <ul>
+                <li><i class="fas fa-heart" aria-hidden="true"></i> {{ post.likes }}</li>
+                <li><i class="fas fa-comment" aria-hidden="true"></i> {{ post.comments }}</li>
+              </ul>
+            </div>
+          </app-post>
+        </div>
+      </section>
+    </section>
+  </section>
